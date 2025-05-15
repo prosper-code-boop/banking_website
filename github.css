@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.logo-svg img{
+    width: 20%;
+}
+body{
+    background: rgb(92, 8, 60);
+}
+nav{
+    border-bottom: 2px solid brown; 
+    padding: 1%;
+    display: flex;
+    position: fixed;
+    top: 0;
+    background: #04f1b6;
+}
+.logo-svg img{
+    width: 13em;
+    margin-left: 15%;
+}
+nav ul{
+    margin-left: 8%;
+    font-size: 1.2em;
+    gap: 2%;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    width: 58.4em;
+}
+nav ul a{
+    color: brown;
+}
+nav input{
+    padding: 1%;
+    border-radius: 10px;
+    border: 1px solid  brown;
+}
+nav ul a:hover{
+    border-bottom: 2px solid brown;
+    color: blue;
+}
+
+nav button{
+    padding: 1%;
+    border: none;
+    border-radius: 8px;
+    background: brown;
+    cursor: pointer;
+}
+nav button a{
+    color: #fff;
+}
+.text-container{
+    text-align: center;
+    margin: 12%;
+}
+.text-body{
+    margin-bottom: 15%;
+    line-height: 2em;
+    color: brown;
+}
+.text-body2{
+    margin-top: 15%;
+    line-height: 2em;
+    color: brown;
+}
+footer{
+    background: dimgray;
+    padding: 3%;
+    align-items: center;
+}
